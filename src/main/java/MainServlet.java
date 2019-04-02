@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServlet;
 import java.util.ArrayList;
 
 import Databases.SQLiteClass;
-import org.json.JSONObject;
+import org.json.JSONObject
 
 public class MainServlet extends HttpServlet {
 
