@@ -11,7 +11,7 @@ public class MainServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+		int pidr=0;
         response.setContentType("text/html");
         RequestDispatcher dispatcher = request.getRequestDispatcher("index.html");
         if (dispatcher != null) {
